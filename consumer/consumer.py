@@ -2,7 +2,7 @@ from confluent_kafka import Consumer, KafkaError
 
 # Kafka consumer configuration
 consumer_config = {
-    'bootstrap.servers': 'localhost:9091',  # Replace with your Kafka broker address
+    'bootstrap.servers': 'kafka1:9091',  # Replace with your Kafka broker address
     'group.id': 'test-group',
     'auto.offset.reset': 'earliest'  # Start consuming from the beginning of the topic
 }

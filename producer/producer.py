@@ -19,7 +19,7 @@ directions = ["northbound", "southbound", "eastbound", "westbound"]
 
 # Kafka producer configuration
 producer_config = {
-    'bootstrap.servers': 'localhost:9091',  # Replace with your Kafka broker address
+    'bootstrap.servers': 'kafka1:9091',  # Replace with your Kafka broker address
     'client.id': 'traffic-producer'
 }
 
