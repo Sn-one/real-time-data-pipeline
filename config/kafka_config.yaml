@@ -1,0 +1,5 @@
+kafka:
+  bootstrap.servers: localhost:9091
+  group.id: my-consumer-group
+  auto.offset.reset: earliest
+  enable.auto.commit: true

@@ -12,7 +12,7 @@ __consumer_offsets 46 0
 light_bulb 2 0
 __consumer_offsets 25 0
 __consumer_offsets 35 0
-__consumer_offsets 41 3
+__consumer_offsets 41 5
 __consumer_offsets 33 0
 __consumer_offsets 23 0
 __consumer_offsets 49 0
@@ -21,7 +21,7 @@ __consumer_offsets 16 0
 __consumer_offsets 28 0
 __consumer_offsets 31 0
 __consumer_offsets 36 0
-light_bulb 1 4
+light_bulb 1 0
 __consumer_offsets 42 0
 __consumer_offsets 3 0
 __consumer_offsets 18 0
@@ -35,7 +35,7 @@ __consumer_offsets 48 0
 __confluent.support.metrics 0 0
 __consumer_offsets 19 0
 __consumer_offsets 11 0
-traffic_data 0 218
+traffic_data 0 0
 __consumer_offsets 13 0
 __consumer_offsets 2 0
 __consumer_offsets 43 0
@@ -45,7 +45,7 @@ __consumer_offsets 20 0
 __consumer_offsets 0 0
 __consumer_offsets 44 0
 __consumer_offsets 39 0
-__consumer_offsets 12 42
+__consumer_offsets 12 260
 __consumer_offsets 45 0
 __consumer_offsets 1 0
 __consumer_offsets 5 0

@@ -1,0 +1,4 @@
+zookeeper:
+  connect: localhost:2181
+  session.timeout.ms: 6000
+  connection.timeout.ms: 6000

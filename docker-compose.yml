@@ -39,3 +39,18 @@ services:
     depends_on:
       - kafka1
       
+  producer:
+    image: kafka-producer
+    build:
+      context: .
+      dockerfile: producer/Dockerfile.producer
+    depends_on:
+      - kafka1
+
+  consumer:
+    image: kafka-consumer
+    build:
+      context: .
+      dockerfile: consumer/Dockerfile.consumer
+    depends_on:
+      - kafka1

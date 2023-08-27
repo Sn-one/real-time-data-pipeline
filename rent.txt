@@ -29,3 +29,24 @@ services:
 volumes:
   kafka-volume:
   zookeeper-volume:
+
+
+
+
+producer:
+    build:
+      context: ./producer  # Directory containing producer.py and Dockerfile
+    depends_on:
+      - kafka1  # Ensure Kafka is running before starting the producer
+    command: python producer.py
+    volumes:
+      - ./producer:/app  # Mount producer script directory as a volume
+
+  consumer:
+    build:
+      context: ./consumer  # Directory containing consumer.py and Dockerfile
+    depends_on:
+      - kafka1  # Ensure Kafka is running before starting the consumer
+    command: python consumer.py
+    volumes:
+      - ./consumer:/app  # Mount consumer script directory as a volume
